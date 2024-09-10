@@ -1,0 +1,410 @@
+/*
+color-primario: #red;
+color-secundario: #white;
+color-terciario: #black;
+color-cuarto: #aqua;
+*/
+    
+@media(min-width:320px) and (max-width:780px){
+body{
+    background-color: cornsilk;
+}
+.encabezado{
+    background-color: red;
+    color: aqua;
+    border: 1px solid aqua;
+    font-family: fantasy;
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    }
+.encabezado:hover{
+    border: 2px solid aqua;
+}
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 1em;
+    border-radius: 5px;
+    }
+.lista-padre{
+    list-style-type: none;
+    padding:0%;
+    margin: 0%;
+    margin-bottom: 0%;
+    border-radius: 3px;
+    
+    }
+li{
+    font-family: fantasy;
+    background-color: aqua;
+    font-size: larger;
+    padding: 0.5em;
+    border: 0.5px solid black;
+    text-align: center;
+    border-radius: 5px;
+    }
+.link{
+    text-decoration: none;
+    color: red;
+    }
+.about-us{
+    color: aqua;
+    font-family: fantasy;
+    font-size: xx-large;
+    background-image: url(https://i.pinimg.com/564x/1e/69/8d/1e698d53c26a5e0f68e4f039e3a10849.jpg);
+    background-size:cover;
+    }
+.container{
+    background-color: red;
+    font-family: fantasy;
+    padding: 0.5em;
+    margin-top: 1%;
+    border-radius: 5px;
+    }
+.container-productos h1{
+    background-color: red;
+    color: aqua;
+    font-family: fantasy;
+    }
+.card-img{
+    width: 30%;
+    padding: 5px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 35%;
+    margin-right: 21%;
+    }
+.container-cards{
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    }
+.card-title{
+    background-color: black;
+    color: aqua;
+    padding: 1em 1em;
+    margin: 0;
+    text-align: center;
+    font-family: fantasy;
+    }
+.boton-comprar{
+    width: 40%;
+    padding: 0.25em;
+    background-color: aqua;
+    color: red;
+    border-radius: 10%;
+    font-family: fantasy;
+    font-size: larger;
+    margin-left: 31%;
+    top: 2px;
+    }
+.boton-comprar:hover{
+    background-color: black;
+    color: red;
+
+    }
+.link:hover{
+    background-color: darkblue;
+    color: red;
+    cursor: pointer;
+    }
+.card-img:hover{
+    scale: 1.5;
+    transition: 400ms;
+    }
+.boton-yt{
+    padding: 15px;
+    background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_mhI-ccrZmD48Fn_A7igxvm70xYFy9TMjzVNfxOoc6Bk2s=s900-c-k-c0x00ffffff-no-rj);
+    background-size: contain;
+    margin-top:  1em;
+    }
+.boton-yt:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.formulario{
+    display: grid;
+    width: 60%;
+    margin-left: 15%;
+    color: black;
+    background-color: red;
+    border:5px solid aqua;
+    justify-content: center;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 3%;
+}
+.registro{
+    font-family: fantasy;
+    text-align: center;
+}
+.boton-ingreso{
+    justify-content: center;
+    background-color: black;
+}
+#submit{
+    background-color: black;
+    text-decoration: none;
+    color: aqua;
+    font-family: fantasy;
+    margin-bottom: 3%;
+}
+footer{
+    bottom: 0;
+}
+.video{
+    width: 50%;
+    margin: 25%;
+}
+.boton-whatsap{
+    height: 33px;
+    margin-left: 50%;
+}
+.card-img:hover{
+    opacity: 0.9;
+    scale:1.1;
+    filter: drop-shadow(0 0 10px rgba(0, 0, .8));
+    cursor: pointer; 
+    overflow: hidden;
+    transition: 600ms;
+}
+}
+
+@media(min-width: 769px) and (max-width:16002px){
+    body{
+        background-color:cornsilk;
+    
+    }
+    .encabezado{
+        color: aqua;
+        text-align: center;
+        padding: 1px;
+        margin-bottom: 2.5%;
+        border: 1px solid aqua;
+        border-radius: 8px;
+    }
+    .encabezado:hover{
+        border: 2px solid aqua;
+    }
+    .nba{
+        font-family: fantasy;
+        background-color: black;
+        color: aqua;
+        text-align: center;
+    }
+    .formulario{
+        font-family: fantasy;
+        color:black;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        padding: 0.5em;
+        margin-right:80%;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        border: 5px solid aqua;
+        border-radius: 4%;
+        background-color: red;
+    }
+    .registro{
+        margin: auto;
+        padding: 2.5px;
+        display: grid;
+        justify-content: center;
+    }
+    .menu .lista-padre {
+        color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .menu{
+        margin-bottom: 2.5%;
+    }
+    .container{
+        color: black;
+        background-color:red;
+        border: 0.5px solid aqua;
+        border-radius: 1%;
+        font-family: fantasy;
+        font-size: x-large;
+        padding: 5em;
+        margin-top: 1%;
+    }
+    footer{
+        background-color: aqua;
+        border: 0.5px solid red;
+        border-radius: 5px;
+        padding: 12.5px;
+        margin-top: 10%;
+        display: flex;
+        bottom: 0;
+        width: 96.6%;
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+    }
+    .boton-yt{
+        padding: 15px;
+        background-image: url(https://yt3.googleusercontent.com/ytc/AIdro_mhI-ccrZmD48Fn_A7igxvm70xYFy9TMjzVNfxOoc6Bk2s=s900-c-k-c0x00ffffff-no-rj);
+        background-size: contain;
+        }
+    .card-img{
+        width: 15%;
+        padding: 2px;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 43%;
+        }
+    
+    .container-productos{
+        margin-top: 1em;
+        margin:3% ;
+        margin-bottom: 5%;
+        border-radius: 5%;
+        }
+    .container-cards{
+        width: 90%;
+        left: 500px;
+        margin: auto;
+        background-color:white;
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 1em;
+        border-radius: 2%;
+        margin-top: 2.5em;
+        box-shadow: 5px 5px 10px inset black;
+        margin-bottom: 4%;
+        }
+    .card-title{
+        background-color: black;
+        color: aqua;
+        border-radius: 8px;
+        padding: 1em;
+        margin: 0;
+        text-align: center;
+        font-family: fantasy;
+        grid-row-start: 1;
+        grid-row-end:4;
+        }
+    .boton-comprar{
+        width: 20%;
+        padding: 0.25em;
+        background-color: aqua;
+        color: black;
+        border-radius: 10%;
+        font-family: fantasy;
+        font-size: larger;
+        margin-left: 40%;
+        top: 2px;
+        }
+    article{
+        margin: 2%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        }
+    .boton-comprar:hover{
+        background-color: black;
+        color:red;
+        cursor:pointer;
+    }
+    .card-img:hover{
+        opacity: 0.9;
+        scale:1.1;
+        filter: drop-shadow(0 0 10px rgba(0, 0, .8));
+        cursor: pointer; 
+        overflow: hidden;
+        transition: 600ms;
+    }
+    .link:hover{
+        background-color: darkblue;
+        color: red;
+        cursor: pointer;
+    }
+    .menu{
+        border-radius: 8px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        text-decoration: none;
+        color: red;
+    }
+    li{
+        font-family: fantasy;
+        font-size: larger;
+        padding: 0.5em;
+        background-color: aqua;
+        border: 0.5px solid red;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+    }
+    li:hover{
+        background-color: darkblue;
+        cursor: pointer;
+    }
+    .lista-padre{
+        list-style-type: none;
+        padding: 0%;
+    }
+    .encabezado{
+        background-color: red;
+        color: aqua;
+        font-family: fantasy;
+        font-size: large;
+        text-align: center;
+    }
+    .about-us{
+        color: white;
+        font-size: xx-large;
+        font-weight: 200;
+    }
+    .video{
+        border: 2px solid red;
+        margin-left: 23%;
+        border-radius: 2%;
+    }
+    .boton-whatsap{
+        height: 33px;
+    }
+    #submit{
+        background-color: black;
+        color: aqua;
+        font-family: fantasy;
+        font-size: medium;
+        border:1px solid gray;
+        border-radius: 3px;
+    }
+    .footer{
+        display: flex;
+        margin: auto;
+        justify-content:center;
+    }
+    .boton-ig{
+        margin-left:30px;
+    }
+    #buscador{
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        border: 1px solid black;
+        width: 20%;
+    }
+}
+    
+    
+
